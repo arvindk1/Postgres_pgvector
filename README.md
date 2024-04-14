@@ -1,25 +1,25 @@
 # Postgres_pgvector
 
--   .Postgres_pgvector
-    │   .env
-    │   .gitignore
-    │   add_test_data.py
-    │   database.ini
-    │   docker-compose.yml
-    │   init.sql
-    │   list_models.py
-    │   README.md
-    │   requirements.txt
-    │   sentence_transformer.py
-    │   test
-    │   test_search.py
-    │   
-    └───app
-        │   __init__.py
+- ''' .Postgres_pgvector
+        │   .env
+        │   .gitignore
+        │   add_test_data.py
+        │   database.ini
+        │   docker-compose.yml
+        │   init.sql
+        │   list_models.py
+        │   README.md
+        │   requirements.txt
+        │   sentence_transformer.py
+        │   test
+        │   test_search.py
         │   
-        ├───db
-        │   │   config.py
-        │   │   connect.py
+        └───app
+            │   __init__.py
+            │   
+            ├───db
+            │   │   config.py
+            │   │   connect.py '''
 
 ### Docker Compose configuration for setting up a PostgreSQL database with pgvector extension and custom initialization script.
 
